@@ -10,12 +10,18 @@ public class Bevande {
     private int calorie;
     private double prezzo;
 
+    public Bevande(String nome, int calorie, double prezzo) {
+        this.nome = nome;
+        this.calorie = calorie;
+        this.prezzo = prezzo;
+    }
+
     @Override
     public String toString() {
-        return "Drink{" +
-                "name='" + nome +
-                ", calories=" + calorie +
-                ", price=" + prezzo +
+        return "Bevande{" +
+                "name ='"+" " + nome +
+                ", calories =" +" "+ calorie + " " +"Kcal"+
+                ", price =" +" "+ prezzo + " " +"$" +
                 '}';
 
     }

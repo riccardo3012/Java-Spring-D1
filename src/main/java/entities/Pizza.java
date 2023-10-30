@@ -20,10 +20,9 @@ public class Pizza {
     }
     @Override
     public String toString(){
-        return "nome='" + nome + '\'' +
-                "topping{" +
-                ", calorie=" + calorie +
-                ", prezzo=" + prezzo +
+        return "nome ='" +" " + nome + '\'' +
+                ", calorie ="+" " + calorie + " " + "Kcal"+
+                ", prezzo =" +" "+ prezzo + " " +"$"+
                 '}';
 
     }

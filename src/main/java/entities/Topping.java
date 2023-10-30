@@ -10,6 +10,10 @@ public class Topping {
     private int calorie;
     private double prezzo;
 
+    public String getNome() {
+        return nome;
+    }
+
     public Topping(String nome, int calorie, double prezzo) {
         this.nome = nome;
         this.calorie = calorie;
@@ -22,9 +26,9 @@ public class Topping {
 
     public String toString() {
         return "Topping{" +
-                "name='" + nome +
-                ", calories=" + calorie +
-                ", price=" + prezzo +
+                "name ='"+" " + nome +
+                ", calories ="+" " + calorie +" " + "Kcal"+
+                ", price =" +" "+ prezzo + " " +"%"+
                 '}';
     }
 
